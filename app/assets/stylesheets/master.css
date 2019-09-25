@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  color: #ff6347; 
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+}
+
+@import "word_wrap";
+
+image {
+  width: 300px;
+  height: 550px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+paragraph {text-align: center}
