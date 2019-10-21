@@ -12,7 +12,13 @@
   <p>
     If you want to learn how to code - start <a target="_blank" href="https://online.bootcampspot.com"> here</a>.
   </p>
-
-</div>
 <%= image_tag 'study.jpg', :size => "500x300" %>
+</div>
 
+<div class="booyah-box col-10 offset-1">
+<h3>What was the hardest class you have ever taken?</h3>
+  <%= simple_form_for @degree do |f| %>  
+  <%= render user.degrees %>
+  <%= f.input :classname %>
+  <%= f.submit 'Create' %>
+<% end %>
