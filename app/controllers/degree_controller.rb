@@ -1,2 +1,0 @@
-class DegreesController < ApplicationController
-end
